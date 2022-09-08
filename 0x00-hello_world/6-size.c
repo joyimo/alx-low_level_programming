@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - print the string in the put function
+ * main - Entry point
  * 
- * Descripion: using the main function
- * this program prints "Programming is like building a multilingual puzzle
- * Return: 0
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -15,10 +13,10 @@ int main(void)
 	long long lli;
 	float f;
 
-	printf("Size of a char: %d\n",sizeof(c));
-	printf("Size of an int: %d\n",sizeof(i));
-	printf("Size of a long: %d\n",sizeof(li));
-	printf("Size of a long long: %d\n",sizeof(lli));
-	printf("Size of a float: %d\n",sizeof(f));
+	printf("Size of a char: %d byte(s)\n", sizeof(c));
+	printf("Size of an int: %d\ byte(s)n", sizeof(i));
+	printf("Size of a long: %d\ byte(s)n", sizeof(li));
+	printf("Size of a long long: %dbyte(s)\n", sizeof(lli));
+	printf("Size of a float: %d\byte(s)n", sizeof(f));
 	return (0);
 }
