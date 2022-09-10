@@ -8,6 +8,7 @@
  * Return: 0 on success.
  */
 int main(void)
+
 {
 	int i, j;
 	for (i = 0; i <= 99; i++)
@@ -31,5 +32,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-
 }
