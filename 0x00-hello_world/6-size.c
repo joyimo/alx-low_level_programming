@@ -9,8 +9,8 @@ int main(void)
 {
 	int i;
 	char c;
-	long li
-	long long lli;
+	long int li;
+	long long int lli;
 	float f;
 
 	printf("Size of a int: %d\n", sizeof(i));
