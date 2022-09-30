@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * chech_num - check - string tere are digit
+ * check_num - check - string tere are digit
  * @str: array str
  *
  * Return: Always 0 (Success)
