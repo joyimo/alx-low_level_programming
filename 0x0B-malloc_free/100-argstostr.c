@@ -7,7 +7,7 @@
  */
 int len(char *str)
 {
-		int len = i;
+		int len = 0;
 
 		if (str != NULL)
 		{
