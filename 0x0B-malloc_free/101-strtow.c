@@ -9,7 +9,7 @@
 
 int len(char *str)
 {
-	int len = o;
+	int len = 0;
 
 	if (str != NULL)
 	{
