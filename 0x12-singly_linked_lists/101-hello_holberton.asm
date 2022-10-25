@@ -1,6 +1,6 @@
 extern printf
 
-section .txt
+section .text
    global main
 
 main:
